@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      content: '+1 (555) 123-4567',
+      content: '+91 9415043595',
       details: 'Mon-Sat: 9AM - 7PM',
       color: 'text-secondary'
     },
@@ -161,7 +161,7 @@ const Contact: React.FC = () => {
                         id="phone"
                         name="phone"
                         type="tel"
-                        placeholder="+1 (555) 123-4567"
+                        placeholder="+91 9415043595"
                         value={formData.phone}
                         onChange={handleChange}
                         className="smooth-transition"
